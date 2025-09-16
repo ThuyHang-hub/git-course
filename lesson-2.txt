@@ -1,0 +1,10 @@
+1. Giải thích câu lệnh:
+- git init: khởi tạo git cho folder. Kết quả là một folder .git được tạo ngầm và tất cả các file trong folder trở thành Working Directory 
+- git add <file_name> : Đưa một file có tên là <file_name> từ vùng Working vào vùng Staging
+- git add . : Đưa tất cả các file trong thư mục đã khởi tạo git phía trên vào vùng Staging
+- git commit -m"message": commit các file từ vùng Staging vào Repository
+
+2. Các file theo vùng sau khi chạy lần lượt các lệnh:
+- Vùng Working Directory: file1, file2, file3
+- Vùng Staging Area: không có file nào
+- Vùng Reposiroty: file1
